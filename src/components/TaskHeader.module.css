@@ -1,0 +1,17 @@
+.taskHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.taskHeader div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskHeader strong:first-child {
+  color: var(--blue);
+}
+
+.taskHeader strong:last-child {
+  color: var(--purple);
+}

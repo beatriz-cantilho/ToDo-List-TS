@@ -1,0 +1,14 @@
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emptyState img {
+  width: fit-content;
+}
+
+.emptyState strong, p {
+  color: var(--gray-300);
+}
+

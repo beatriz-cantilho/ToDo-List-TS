@@ -1,0 +1,38 @@
+.formTask {
+  display: flex;
+  justify-content: center;
+  margin-top: -2rem;
+}
+
+.formTask form {
+  width: 50%;
+}
+
+.formTask form > div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.formTask input {
+  width: 100%;
+  background: var(--gray-500);
+  border: 0;
+  height: 4rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--gray-300);
+}
+
+.formTask button[type=submit] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 0;
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  font-weight: bold;
+  cursor: pointer;
+}
